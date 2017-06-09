@@ -16,14 +16,14 @@
   "dependencies": {
     "bluebird": "3.3.3",
     "glob": "7.0.0",
-    "mkdirp": "0.5.1"
+    "mkdirp": "0.5.1",
+    "typescript": "^2.1.4"
   },
   "devDependencies": {
     "dojo-loader": ">=2.0.0-beta.5",
     "intern": "~3.0.0",
     "tsd": "0.6.5",
-    "tslint": "3.11.0",
-    "typescript": "^2.1.4"
+    "tslint": "3.11.0"
   },
   "scripts": {
     "prepublish": "tsc --module umd --target es5 --moduleResolution node typings/tsd.d.ts index.ts bin/dts-generator.ts",
